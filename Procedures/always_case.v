@@ -28,7 +28,6 @@ module top_module (
         out = 4'b0000;
     endcase
   end
-
 endmodule
 
 
@@ -52,6 +51,7 @@ module top_module (
     endcase
   end
 endmodule
+
 
 // https://hdlbits.01xz.net/wiki/Always_nolatches
 module top_module (
@@ -78,5 +78,4 @@ module top_module (
         up = 1'b1;
     endcase
   end
-
 endmodule
