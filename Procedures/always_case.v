@@ -66,7 +66,7 @@ module top_module (
     down = 1'b0;
     left = 1'b0;
     right = 1'b0;
-    // 设置所有值的默认值避免大量的重复赋值代码
+    // 设置所有值的默认值避免default块中大量的重复赋值代码
     case (scancode)
       16'he06b:
         left = 1'b1;
