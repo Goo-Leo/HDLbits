@@ -3,7 +3,7 @@ module top_module (
     input [7:0] a, b, c, d,
     output [7:0] min);//
 
-  assign min = (a<b? a:b) < (c<d ? c:d) ? (a<b? a:b):(c<d ? c:d);
+  assign min = (a<b ? a:b) < (c<d ? c:d) ? (a<b ? a:b):(c<d ? c:d);
   //   function automatic logic [WIDTH-1:0] min2 (input logic [WIDTH-1:0] x, y);
   //     if (x < y)
   //       return x;
